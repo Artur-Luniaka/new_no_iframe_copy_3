@@ -525,7 +525,6 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 2rem;
-  flex-direction: column;
   margin: 0 auto;
   padding-bottom: 2rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -990,10 +989,10 @@ footer {
 .success-message {
   padding: 2rem;
   background: rgba(0, 255, 157, 0.1);
-  border: 1px solid var(--secondary-color);
+  border: 1px solid rgba(0, 255, 157, 0.5);
   border-radius: 4px;
   text-align: center;
-  color: var(--secondary-color);
+  color: rgba(0, 255, 157, 0.5);
   animation: fadeIn 0.5s ease-out;
 }
 
